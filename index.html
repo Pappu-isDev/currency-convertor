@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency Convertot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- main container -->
+    <div class="container">
+        <!-- header section -->
+        <h2 id="header">Welcome To Currency Convertor</h2>
+        <form>
+            <label for="From" class="amount">Enter Amount Here</label>
+            <input type="text" placeholder="Enter Amount" id="From" value="" class="input">
+            <!-- sub Container -->
+            <div class="subContainer">
+                <div class="From">
+                    <p>From</p>
+                    <div class="dropDown">
+                       <div class="img"> <img src="https://flagsapi.com/BE/flat/64.png" /></div>
+                        <div class="select"><select name="USD" class="selectgp"></select></div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-right-left exchange"></i>
+                <div class="To">
+                    <p>To</p>
+                    <div class="dropDown">
+                        <div class="img"> <img src="https://flagsapi.com/BE/flat/64.png"/></div>
+                        <div class="select"><select name="USD" class="selectgp"></select></div>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- output section -->
+            <label for="To" class="amount">Result is :</label>
+            <input type="text" id="to" placeholder="result displayed here" value="" class="input">
+            <button id="btn">Convert</button>
+        </form>
+        <script src="country.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
